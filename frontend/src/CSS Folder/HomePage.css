@@ -1,0 +1,154 @@
+.about-section {
+    position: relative;
+    height: 50vh; /* Covers 50% of viewport height */
+    width: 100%; /* Full width */
+    background-image: url('../../public/download.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .video-container {
+    position: relative;
+    padding-top: 248px;
+    text-align: center;
+  }
+  
+  .centered-video {
+    width: 60%;    height: auto;
+    border-radius: 10px; /* Optional: Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow effect */
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      height: 50vh; /* Adjust height for smaller screens */
+    }
+  
+    .content {
+      width: 90%; /* Reduce width for better display on mobile */
+      font-size: 0.9rem; /* Adjust font size for readability */
+      padding: 15px;
+    }
+  }
+
+
+/* for the feature  */
+
+  .features-section {
+    padding: 40px;
+    background-color: #aa809e; /* Light gray background for contrast */
+    text-align: center;
+  }
+  
+  .feature-item {
+    margin-bottom: 20px;
+  }
+  
+  .feature-item img {
+    margin-bottom: 15px;
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners for images */
+  }
+  
+  .feature-item h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text color */
+  }
+  
+  .feature-item .btn {
+    margin-top: 10px;
+  }
+
+
+/*Review Css */
+
+.user-reviews {
+    padding: 40px;
+    background-color: #f8f9fa; /* Light gray background for contrast */
+  }
+  
+  .reviews-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .scrollable-reviews {
+    max-height: 200px; /* Set height for scrollable content */
+    overflow-y: auto; /* Enable scrolling */
+    background-color: white; /* Optional: Background for the review section */
+    border: 1px solid #ddd; /* Add border to define section */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow for visual appeal */
+  }
+  
+  .review-item {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text color */
+    margin-bottom: 15px; /* Add space between reviews */
+    line-height: 1.5; /* Improve readability */
+  }
+
+
+  /*Footer*/
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* Text color */
+    padding: 40px 0;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    max-width: 100px; /* Adjust logo size */
+    margin-bottom: 20px;
+  }
+
+  .address {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+
+  .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+
+  .social-icons a:hover {
+    color: #ffc107; /* Highlight color on hover */
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
